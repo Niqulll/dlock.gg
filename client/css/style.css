@@ -1,7 +1,9 @@
 body {
     background-color: #1C1C1F;
+    margin: 0;
+    padding: 0;
 }
-/*#424254 lighter gray*/
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -35,9 +37,35 @@ strong {
     display: block;
 }
 
+.center-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.logo-nav{
+    display: flex;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+.logo-nav-column{
+    flex: 1;
+}
+
+.logo-nav-right{
+    text-align: right;
+}
+
+.logo-nav-center{
+    text-align: center;
+}
+
 .flex-nav{
     display: flex;
-    height: min-content;
+    font-size: 18px;
 }
 
 .flex-nav-column {
@@ -46,6 +74,7 @@ strong {
 
 .flex-nav-center {
     text-align: center;
+    background-color: #424254;
 }
 
 .flex-nav-right {
