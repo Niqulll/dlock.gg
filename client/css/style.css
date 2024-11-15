@@ -1,0 +1,53 @@
+body {
+    background-color: #1C1C1F;
+}
+/*#424254 lighter gray*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    display: inline;
+}
+
+h1 {
+    color: white;
+}
+a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.5rem;
+}
+
+hr {
+    border-top: 2px solid #eee;
+    margin: 1rem 0;
+}
+
+strong {
+    padding: 0 0.5rem;
+    margin: 1rem 0 0;
+    display: block;
+}
+
+.flex-nav{
+    display: flex;
+    height: min-content;
+}
+
+.flex-nav-column {
+    flex: 1;
+}
+
+.flex-nav-center {
+    text-align: center;
+}
+
+.flex-nav-right {
+    text-align: right;
+}
