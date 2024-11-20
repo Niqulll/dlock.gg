@@ -1,7 +1,17 @@
+main{
+    display: block;
+    unicode-bidi: isolate;
+}
+
 body {
     background-color: #1C1C1F;
     margin: 0;
     padding: 0;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
 }
 
 ul {
@@ -10,6 +20,13 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+}
+
+input[type=text] {
+    background-color:#333;
+    background-image: url('../media/searchicon.png');
+    background-repeat: no-repeat;
+
 }
 
 li {
@@ -37,12 +54,76 @@ strong {
     display: block;
 }
 
-.center-logo{
+.flex-grow {
+    flex-grow: 1;
+}
+
+.max-w-6x1 {
+    max-width: 72rem;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.max-w-xl {
+    max-width: 36rem;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mt-4 {
+    margin-top: 1rem;
+}
+
+.mb-2 {
+    margin-bottom: .5rem;
+}
+
+.md\:my-24 {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.md\:px-0 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.px-2 {
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.md\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.relative {
+    position: relative;
+}
+
+.center-content{
     display: flex;
+    flex-grow: 1;
     justify-content: center;
     align-items: center;
-    padding-top: 50px;
-    padding-bottom: 30px;
+    flex-wrap: wrap;
+    max-width: 72rem;
 }
 
 .logo-nav{
@@ -74,9 +155,28 @@ strong {
 
 .flex-nav-center {
     text-align: center;
-    background-color: #424254;
 }
 
 .flex-nav-right {
     text-align: right;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.blue-text {
+    color: rgb(96 165 250);
+}
+
+.font-bold {
+    font-weight: 700;
 }
